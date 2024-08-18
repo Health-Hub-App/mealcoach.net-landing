@@ -1,0 +1,43 @@
+.title-height {
+  height: 550px;
+}
+
+@media (max-width: 800px) {
+  .hide-sm {
+    display: none;
+  }
+}
+
+.profile-pic {
+  width: 100px !important;
+}
+
+.background-mountain-1 {
+  background-image: url("https://cdn.wallpapersafari.com/83/83/nLIPZf.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.background-mountain-2 {
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/04/Blue-Night-HD-Wallpaper-Snow-Mountains-Image-Widescreen-Picture.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.background-mountain-3 {
+  background-image: url("https://wallpapercave.com/wp/wp3937372.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.parallax {
+  background-image: url("https://get.wallhere.com/photo/forest-mountains-night-nature-sky-Moon-Yosemite-National-Park-moonlight-California-atmosphere-Yosemite-Valley-dusk-Aurora-mountain-dawn-star-darkness-atmospheric-phenomenon-astronomical-object-138254.jpg");
+  min-height: 0px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

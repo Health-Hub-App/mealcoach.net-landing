@@ -1,554 +1,285 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
- 
-<title>Brand html5 Multipurpose Landing Page for Apps</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- SEO -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MealCoach</title>
 
-<!-- CSS Files -->
-<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-<link href="css/font-awesome.min.css" rel="stylesheet">
-<link href="fonts/icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet">
-<link href="css/animate.css" rel="stylesheet" media="screen">
-<link href="css/owl.theme.css" rel="stylesheet">
-<link href="css/owl.carousel.css" rel="stylesheet">
- 
-<link href="css/styles.css" rel="stylesheet" media="screen">    
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-<!-- Google Fonts --> 
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,700' rel='stylesheet' type='text/css'>
+  <!-- Owl carousel -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
+  <!-- Ointment -->
+  <link href="css/index.css" rel="stylesheet">
 
-<!-- Font Awesome -->
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> 
+  <!-- Animate on scroll -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-  
-<body data-spy="scroll" data-target="#navbar-scroll">
- 
- <div id="top"></div>
 
-<!-- NAVIGATION -->
-<div id="menu">
-	<nav class="navbar-wrapper navbar-default" role="navigation">
-		<div class="container">
-			  <div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-themers">
-				  <span class="sr-only">Toggle navigation</span>
-				  <span class="icon-bar"></span>
-				  <span class="icon-bar"></span>
-				  <span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand site-name" href="#top"><img src="images/logo.png" alt="logo"></a>
-			  </div>
-	 
-			  <div id="navbar-scroll" class="collapse navbar-collapse navbar-themers navbar-right">
-				<ul class="nav navbar-nav">
-					<li><a href="#intro">About</a></li>
-					<li><a href="#feature">Features</a></li>
-					<li><a href="#subscribe">Subscribe</a></li>
-					<li><a href="#screenshot">Screenshots</a></li>
-					<li><a href="#clients">Clients</a></li>
-					<li><a href="#package">Package</a></li>
-					<li><a href="#download">Download</a></li>
-				</ul>
-			  </div>
-		</div>
-	</nav>
-</div>
- 
-<div class="fullscreen landing parallax banner" style="background-image:url('images/bg.jpg');" data-img-width="2000" data-img-height="1325" data-diff="100">
-	
-	<div class="overlay">
-		<div class="container">
-			<div class="row">
-				
-				
-				
-				<div class="col-md-6">
-				 
-						<h1 class="wow fadeInLeft">
-						App Landing Page 
-						</h1>
- 
-					<div class="landing-text wow fadeInLeft">
-						<p>Lorem Ipsum is simply dummy text of the printing and type setting industry consectetur adipisicing elit, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing tempor incididunt!</p>
-					</div>				  
+<body>
+  <!-- Navbar -->
+  <nav class="p-2 bd-highlight navbar navbar-expand-lg sticky-top bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#">MealCoach</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-					<!-- header button -->
-					<div class="head-btn wow fadeInLeft">
-						<a href="#" class="btn-primary app-store">
-						<i class="fa fa-apple"></i> <span> App Store</span>
-						</a>
-						<a href="#" class="btn-primary play-market">
-						<i class="fa fa-android"></i> <span> Google Play</span>
-						</a>
-					</div>
-	
-					 				
+  <!-- Title -->
+  <div class="title-height position-relative">
+    <div class="owl-carousel owl-title">
+      <div class="background-mountain-1 title-height"></div>
+      <div class="background-mountain-2 title-height"></div>
+      <div class="background-mountain-3 title-height"></div>
+    </div>
 
-				</div> 
-				
-				<!-- phone image -->
-				<div class="col-md-6">
-				<img src="images/header-phone.png" alt="phone" class="header-phone img-responsive wow fadeInRight">
-				</div>
-			</div>
-		</div> 
-	</div> 
-</div>
-   
-<!-- intro section -->
-<div id="intro">
-		<div class="container">
-		<div class="row">
-	
-	<!-- feature image -->
-			<div class="col-md-6 feature-2-pic wow fadeInLeft">
-				<img src="images/feature2-image.jpg" alt="image" class="img-responsive">
-			</div>	
-			
-			<!-- feature content -->
-			<div class="col-md-6 wow fadeInRight">
-				<h2>Learn how to make your app marketing efficient</h2>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset.
-				</p>
+    <div class="top-50 start-50 translate-middle position-absolute z-1 text-light container row">
+      <div class="col align-content-center text-end" data-aos="fade-right">
+        <h1>MealCoach</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 
-					<div class="btn-section"><a href="#download" class="btn-default">Download Now</a></div>
-		
-			</div>
-			 			  
-		</div>			  
-  
-	</div>
-</div>
+        <a href="/css/index.css">
+          <img height="50px" src="/images/PreRegisterOnGooglePlay_Badge_Web_color_en-GB.png" />
+        </a>
+        <a href="/css/index.css">
+          <img height="50px" src="/images/Pre-order_on_the_App_Store_Badge_US-UK_RGB_blk_121217.svg" />
+        </a>
+      </div>
 
-<!-- feature section -->
-<div id="feature">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-10 col-md-offset-1 col-sm-12 text-center feature-title">
+      <div class="col hide-sm" data-aos="fade-left" data-aos-delay="50">
+        <img height="350px" src="https://www.pngkey.com/png/full/377-3778414_generic-smartphone-png.png" />
+      </div>
+    </div>
+  </div>
 
-			<!-- feature title -->
-				<h2>Our Amazing beautiful features</h2>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-			</div>
-		</div>
-		<div class="row row-feat">
-			
-			<div class="col-md-12">
+  <!-- About -->
+  <div class="container py-5">
+    <div class="row">
+      <div class="col text-end hide-sm" data-aos="fade-right" data-aos-delay="100">
+        <img height="350px" src="/images/phone.png" />
+      </div>
+      <div class="col" data-aos="fade-left" data-aos-delay="150">
+        <h1>About us</h1>
+        <p>write a really high level overview of waht we do here, like 3 lines, balls, balls, balls, balls, balls, balls, balls, balls, balls, balls, balls, balls, balls, balls, balls, balls, balls, balls, balls, balls, balls, balls, balls, balls, balls, balls, balls, balls, balls</p>
+      </div>
+    </div>
+  </div>
 
-				<!-- feature 1 -->
-				<div class="col-sm-4 feat-list">
-					<i class="fa fa-paint-brush wow fadeInUp"></i>
-					<div class="inner">
-						<h4>Fully Customizable</h4>
-						<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
-						</p>
-					</div>
-				</div>
-			
-				<!-- feature 2 -->
-				<div class="col-sm-4 feat-list">
-					<i class="fa fa-rss wow fadeInUp" data-wow-delay="0.2s"></i>
-					<div class="inner">
-						<h4>Responsive Design</h4>
-						<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
-					</div>
-				</div>
-			
-				<!-- feature 3 -->
-				<div class="col-sm-4 feat-list"> 
-					<i class="fa fa-recycle wow fadeInUp" data-wow-delay="0.4s"></i>
-					<div class="inner">
-						<h4>Amazing Design</h4>
-						<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
-					</div>
-				</div>
-			
-				
-			</div>
-		</div>
-	</div>
-</div>
-<section id="features">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-6 wow fadeInRight animated" data-wow-delay=".8s" style="visibility: visible; animation-delay: 0.8s; -webkit-animation-delay: 0.8s; animation-name: fadeInRight; -webkit-animation-name: fadeInRight;">
-                    <h2 class="title">Our Focused on Feature</h2>
-
-                    <div class="feature-item">
-
-                        <div class="media">
-                            <div class="pull-left icon" href="#">
-                                <i class="fa fa-paint-brush"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Reliable and Secure Platform</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisici ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="feature-item">
-
-                        <div class="media">
-                            <div class="pull-left icon" href="#">
-                                <i class="fa fa-rss"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Everything is perfectly orgainized</h4>
-                                <p>Aipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="feature-item">
-
-                        <div class="media">
-                            <div class="pull-left icon" href="#">
-                                <i class="fa fa-recycle"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Rapid customer support</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 wow fadeInLeft animated" data-wow-delay=".8s" style="visibility: visible; animation-delay: 0.8s; -webkit-animation-delay: 0.8s; animation-name: fadeInLeft; -webkit-animation-name: fadeInLeft;">
-                    <div class="block">
-                        <img class="img-responsive" src="images/featured-app.png" alt="">
-                    </div>
-                </div>
-            </div>
+  <!-- Features -->
+  <div class="parallax">
+    <div class="container py-5 text-light">
+      <div class="col">
+        <div class="row pb-5 text-center">
+          <h1>What we offer</h1>
+          <p>Lorem ipsum odor amet, consectetuer adipiscing elit. (then bulletpoint MVPs below, (https://feathericons.com/))</p>
         </div>
-    </section> 
+        <div class="row">
+          <div class="col d-flex" data-aos="fade-up" data-aos-delay="150">
+            <div class="p-4">
+              <i data-feather="cpu"></i>
+            </div>
+            <div>
+              <h3>AI bullshit</h3>
+              <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Platea curae sapien lacinia sodales, nulla ante? Placerat elementum vivamus quisque posuere venenatis non. Turpis nascetur quis auctor maecenas dis pharetra ad.</p>
+            </div>
+          </div>
 
+          <div class="col d-flex" data-aos="fade-up" data-aos-delay="50">
+            <div class="p-4">
+              <i data-feather="info"></i>
+            </div>
+            <div>
+              <h3>cognito hazard</h3>
+              <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Tortor egestas in fusce, elit morbi ipsum ullamcorper accumsan. Nisl fusce elit convallis ultrices leo nibh aliquet dictum. Ut tellus phasellus facilisis ante ultricies purus semper ultrices nam.</p>
+            </div>
+          </div>
+          <div class="col d-flex" data-aos="fade-up">
+            <div class="p-4">
+              <i data-feather="wifi"></i>
+            </div>
+            <div>
+              <h3>Deadly</h3>
+              <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Viverra maximus primis tincidunt maecenas magnis. Cras eleifend nam per risus habitant molestie.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<!-- subscribe section -->
-<div id="subscribe">
-	<div class="subscribe fullscreen parallax" style="background-image:url('images/bg.jpg');" data-img-width="1920" data-img-height="1281" data-diff="100">
-		<div class="overlay">
-			<div class="container">
+  <!-- Screenshots -->
+  <div class="container py-5">
+    <div class="col">
+      <div class="row pb-5 text-center">
+        <h1>Screenshots</h1>
+        <p>Lorem ipsum odor amet, consectetuer adipiscing elit.</p>
+      </div>
+      <div class="owl-carousel owl-features owl-theme">
+        <img class="border rounded" data-aos="fade-up" src="/images/screenshot-1.png" />
+        <img class="border rounded" data-aos="fade-up" data-aos-delay="50" src="/images/screenshot-1.png" />
+        <img class="border rounded" data-aos="fade-up" data-aos-delay="100" src="/images/screenshot-1.png" />
+        <img class="border rounded" data-aos="fade-up" data-aos-delay="150" src="/images/screenshot-1.png" />
+        <img class="border rounded" src="/images/screenshot-1.png" />
+        <img class="border rounded" src="/images/screenshot-1.png" />
+      </div>
+    </div>
+  </div>
 
-				<!-- mail icon -->
-				<div class="col-md-4 col-md-offset-4 text-center">
-				<i class="fa fa-envelope-o letter wow fadeInUp"></i>
-				</div>
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+  <!-- Reviews -->
+  <div class="parallax">
+    <div class="container py-5 text-light">
+      <div class="col text-center">
+        <div class="row pb-5">
+          <h1>Reviews</h1>
+        </div>
+        <div class="owl-carousel owl-reviews">
+          <div class="col" data-aos="fade-up">
+            <img class="profile-pic mx-auto rounded-circle pb-5" src="images/arnold.jpg" />
+            <div>
+              <h3>Arnold</h3>
+              <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Platea curae sapien lacinia sodales, nulla ante? Placerat elementum vivamus quisque posuere venenatis non. Turpis nascetur quis auctor maecenas dis pharetra ad.</p>
+            </div>
+          </div>
 
-					<!-- subscribe form -->
-					<div class="subscribe-form wow fadeInUp">
-						<form class="news-letter mailchimp" action="" role="form" method="POST">
-						<input type="hidden" name="u" value="">
-						<input type="hidden" name="id" value="">
-						<input class="form-control" type="email" name="" placeholder="Your email..." required="">
-							<button type="submit" class="subscribe-btn btn">SUBSCRIBE</button>
-						</form>
-					</div>					
-				</div>
+          <div class="col">
+            <img class="profile-pic mx-auto rounded-circle pb-5" src="images/kyriawgasd.png" />
+            <div>
+              <h3>Kyriakos Grizzly</h3>
+              <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Tortor egestas in fusce, elit morbi ipsum ullamcorper accumsan. Nisl fusce elit convallis ultrices leo nibh aliquet dictum. Ut tellus phasellus facilisis ante ultricies purus semper ultrices nam.</p>
+            </div>
+          </div>
 
-			</div>	
-		</div>
-	</div>
-</div>
+          <div class="col">
+            <img class="profile-pic mx-auto rounded-circle pb-5" src="images/kris.webp" />
+            <h3>Kris 'Ava' Tyson</h3>
+            <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Viverra maximus primis tincidunt maecenas magnis. Cras eleifend nam per risus habitant molestie.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<!-- screenshot section -->
-<div id="screenshot">
-	<div class="container">
-		<div class="text-center">
-			<h2 class="wow fadeInLeft">Screenshots</h2>
-			<div class="title-line wow fadeInRight"></div>
-		</div>
-		<div class="row screenshots">
-			
-			<div id="screenshots" class="owl-carousel">
+  <!-- Socials -->
+  <div class="container py-5">
+    <div class="col">
+      <div class="row pb-5 text-center">
+        <h1>Socials</h1>
+        <p>Lorem ipsum odor amet, consectetuer adipiscing elit.</p>
+      </div>
+      <div class="row">
+        <div class="d-flex justify-content-center">
+          <img class="me-5 rounded-circle" data-aos="fade-up" data-aos-delay="150" height="100px" src="/images/x.png" />
+          <img class="me-5 rounded-circle" data-aos="fade-up" data-aos-delay="100" height="100px" src="/images/x.png" />
+          <img class="me-5 rounded-circle" data-aos="fade-up" data-aos-delay="50" height="100px" src="/images/x.png" />
+          <img class="rounded-circle" data-aos="fade-up" height="100px" src="/images/tiktok.png" />
+        </div>
+      </div>
+    </div>
+  </div>
 
-				<!-- screenshot images -->
-				<div class="screen wow fadeInUp">
-					<a href="images/img1.jpg" data-toggle="lightbox"><img src="images/img1.jpg" alt="Screenshot"></a>
-				</div>
-				
-				<div class="screen wow fadeInUp" data-wow-delay="0.1s">
-					<a href="images/img2.jpg" data-toggle="lightbox"><img src="images/img2.jpg" alt="Screenshot"></a>
-				</div>
-				
-				<div class="screen wow fadeInUp" data-wow-delay="0.2s">
-					<a href="images/img3.jpg" data-toggle="lightbox"><img src="images/img3.jpg" alt="Screenshot"></a>
-				</div>
-				
-				<div class="screen wow fadeInUp" data-wow-delay="0.3s">
-					<a href="images/img4.jpg" data-toggle="lightbox"><img src="images/img4.jpg" alt="Screenshot"></a>
-				</div>
-				
-				<div class="screen wow fadeInUp" data-wow-delay="0.4s">
-					<a href="images/img5.jpg" data-toggle="lightbox"><img src="images/img5.jpg" alt="Screenshot"></a>
-				</div>
-				
-				<div class="screen wow fadeInUp" data-wow-delay="0.5s">
-					<a href="images/img6.jpg" data-toggle="lightbox"><img src="images/img6.jpg" alt="Screenshot"></a>
-				</div>			
-				
-				<div class="screen wow fadeInUp" data-wow-delay="0.6s">
-					<a href="images/img7.jpg" data-toggle="lightbox"><img src="images/img7.jpg" alt="Screenshot"></a>
-				</div>
+  <!-- Downloads -->
+  <div class="parallax">
+    <div class="container py-5 text-light">
+      <div class="col text-center">
+        <div class="row pb-5">
+          <h1>Downloads</h1>
+          <p>Lorem ipsum odor amet, consectetuer adipiscing elit.</p>
+        </div>
 
-				<div class="screen wow fadeInUp" data-wow-delay="0.7s">
-					<a href="images/img8.jpg" data-toggle="lightbox"><img src="images/img8.jpg" alt="Screenshot"></a>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+      </div>
+    </div>
+  </div>
 
-<!-- Clients section -->
-<div id="clients">
-	<div class="container">
-		<div class="text-center">
-			<h2 class="wow fadeInLeft">Clients</h2>
-			<div class="title-line wow fadeInRight"></div>
-		</div>
-		<div class="row">
-			<div class="col-sm-10 col-sm-offset-1">	
-			   <div id="owl-clients" class="owl-carousel owl-theme wow fadeInUp">
-				 
-					<!-- Clients 1 -->
-					<div class="clients-item">
-						<div class="client-pic text-center">
-						
-							<!-- client photo -->
-							<img src="images/client.jpg" alt="client">
-						</div>
-						<div class="box">
-						
-							<!-- Clients content -->
-							<p class="message text-center">"Printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type dummy text of the printing."</p>
-						</div>
-						<div class="client-info text-center">
-						
-						<!-- client name -->
-							John Doe, <span class="company">Google</span>	
-						</div>
-					</div>		
-					
-					<!-- Clients 2 -->
-					<div class="clients-item">
-						<div class="client-pic text-center">
+  <!-- Footer -->
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+        <span class="text-muted">© 2024 HealthHub, Inc</span>
+      </div>
 
-							<!-- client photo -->
-							<img src="images/client2.jpg" alt="client">
-						</div>
-						<div class="box">
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="#"><img height="40px" class="rounded-circle" src="/images/tiktok.png" /></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><img height="40px" class="rounded-circle" src="/images/x.png" /></a></li>
+      </ul>
+    </footer>
+  </div>
 
-							<!-- Clients content -->
-							<p class="message text-center">"Lorem Ipsum is simply dummy text of the printing and when an unknown printer took a galley of type dummy text of the printing and typesetting industry and scrambled."</p>
-						</div>
-						<div class="client-info text-center">
+  <!-- Feather icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 
-							<!-- client name -->
-							Glen Micheal, <span class="company">CN Technology</span>	
-						</div>
-					</div>				
-					
-					<!-- Clients 3 -->
-					<div class="clients-item">
-						<div class="client-pic text-center">
+  <!-- For bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
-							<!-- client photo -->
-							<img src="images/client3.jpg" alt="client">
-						</div>
-						<div class="box">
+  <!-- Owl carousel -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
 
-							<!-- Clients content -->
-							<p class="message text-center">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer."</p>
-						</div>
-						<div class="client-info text-center">
+  <!-- Animate on scroll -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-							<!-- client name -->
-							Chris Russel, <span class="company">Facebook</span>	
-						</div>
-					</div>			
-				 
-				</div>
-			</div>	
-		</div>	
-	</div>
-</div>
-<div id="package">
-	<div class="container">
-		<div class="text-center">
-		
-			<!-- pricing title -->
-			<h2 class="wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft; -webkit-animation-name: fadeInLeft;">Packages</h2>
-			<div class="title-line wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight; -webkit-animation-name: fadeInRight;"></div>
-		</div>
-		<div class="row package-option">
+  <!-- Init -->
+  <script>
+    AOS.init();
 
-			<!-- package 1 -->
-			<div class="col-sm-4">
-			  <div class="price-box wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp; -webkit-animation-name: fadeInUp;">
-			   <div class="price-heading text-center">
-			   
-					
-					<!-- package name -->
-					<h3>Basic</h3>
-			   </div>
-			   
-			   <!-- price -->
-				<div class="price-group text-center">
-					<span class="dollar">$</span>
-					<span class="price">12</span>
-					<span class="time">/mo</span>
-				</div>
-			
-				<!-- package features -->
-			   <ul class="price-feature text-center">
-				  <li><strong>300MB</strong> Disk Space</li>
-				  <li><strong>200MB</strong> Bandwidth</li>
-				  <li><strong>4</strong> Subdomains</li>
-				  <li><strong>6</strong> Email Accounts</li>
-				  <li><strike>Webmail Support</strike></li>				  
-			   </ul>
-			   
-			   <!-- package button -->
-			   <div class="price-footer text-center">
-				 <a class="btn btn-price" href="#">BUY NOW</a>
-				</div>	
-			  </div>
-			</div>
-			
-			<!-- package 2 -->
-			<div class="col-sm-4">
-			  <div class="price-box wow fadeInUp animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; -webkit-animation-delay: 0.2s; animation-name: fadeInUp; -webkit-animation-name: fadeInUp;">
-			   <div class="price-heading text-center">
- 
+    feather.replace();
 
-			   <!-- package name -->
-				<h3>Standard</h3>
-			   </div>
-			   
-			   <!-- price -->
-				<div class="price-group text-center">
-					<span class="dollar">$</span>
-					<span class="price">16</span>
-					<span class="time">/mo</span>
-				</div>
-			
-				<!-- package features -->
-			   <ul class="price-feature text-center">
-				  <li><strong>600MB</strong> Disk Space</li>
-				  <li><strong>300MB</strong> Bandwidth</li>
-				  <li><strong>4</strong> Subdomains</li>
-				  <li><strong>12</strong> Email Accounts</li>
-				  <li><strike>Webmail Support</strike></li>			  
-			   </ul>
+    $('.owl-title').owlCarousel({
+      loop: true,
+      margin: 0,
+      nav: true,
+      responsive: { 0: { items: 1 } }
+    });
+    $('.owl-features').owlCarousel({
+      loop: false,
+      margin: 10,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 4
+        }
+      }
+    });
+    $('.owl-reviews').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+      }
+    });
+  </script>
+</body>
 
-				<!-- package button -->
-			   <div class="price-footer text-center">
-				 <a class="btn btn-price" href="#">BUY NOW</a>
-				</div>
-			  </div>
-			</div>	
-			
-			<!-- package 3 -->
-			<div class="col-sm-4">
-			  <div class="price-box wow fadeInUp animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; -webkit-animation-delay: 0.4s; animation-name: fadeInUp; -webkit-animation-name: fadeInUp;">
-			   <div class="price-heading text-center">
-			   
-					 
-				
-					<!-- package name -->
-					<h3>Advance</h3>
-			   </div>
-			   
-			   <!-- price -->
-				<div class="price-group text-center">
-					<span class="dollar">$</span>
-					<span class="price">24</span>
-					<span class="time">/mo</span>
-				</div>
-			
-				<!-- package features -->
-			   <ul class="price-feature text-center">
-				  <li><strong>1.5GB</strong> Disk Space</li>
-				  <li><strong>1.2GB</strong> Bandwidth</li>
-				  <li><strong>14</strong> Subdomains</li>
-				  <li><strong>26</strong> Email Accounts</li>
-				  <li>Webmail Support</li>					  
-			   </ul>
-			   
-			   <!-- package button -->
-			   <div class="price-footer text-center">
-				 <a class="btn btn-price" href="#">BUY NOW</a>
-				</div>	
-			  </div>
-			</div>
-			
-			 
-
-		</div>
-	</div>
-</div>	
-<!-- download section -->
-<div id="download">
-	<div class="action fullscreen parallax" style="background-image:url('images/bg.jpg');" data-img-width="2000" data-img-height="1334" data-diff="100">
-		<div class="overlay downloadSection">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 col-sm-12 text-center">
-						<h2 class="wow fadeInLeft">Get Your free Download of Juke App today!</h2>
-						<p class="download-text wow fadeInRight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type dummy text of the printing and typesetting industry and scrambled.</p>
-						<div class="btn-section">
-						
-						<a href="#" class="btn-primary app-store">
-						<i class="fa fa-apple"></i> <span> App Store</span>
-						</a>
-						<a href="#" class="btn-primary play-market">
-						<i class="fa fa-android"></i> <span> Google Play</span>
-						</a>
-						
-						</div>
-					</div>					
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-  
-<!-- footer -->
-<footer id="footer">
-	<div class="container">
-		<div class="col-sm-4 col-sm-offset-4">
-			<!-- social links -->
-				<div class="social text-center">
-					<ul>
-						<li><a class="wow fadeInUp" href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
-						<li><a class="wow fadeInUp" href="https://www.facebook.com/" data-wow-delay="0.2s"><i class="fa fa-facebook"></i></a></li>
-						<li><a class="wow fadeInUp" href="https://plus.google.com/" data-wow-delay="0.4s"><i class="fa fa-google-plus"></i></a></li>
-						<li><a class="wow fadeInUp" href="https://instagram.com/" data-wow-delay="0.6s"><i class="fa fa-instagram"></i></a></li>
-					</ul>
-				</div>	
-			<div class="text-center wow fadeInUp" style="font-size: 14px;">Copyright Juke 2015 - Template by <a href="http://www.webthemez.com">Webthemez</a></div>
-			<a href="#" class="scrollToTop"><i class="fa fa-arrow-circle-o-up"></i></a>
-		</div>	
-	</div>	
-</footer>
-	
-	<!-- javascript files -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-	<script src="js/wow.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/ekko-lightbox-min.js"></script>
-	<script type="text/javascript">
-	$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) { event.preventDefault(); $(this).ekkoLightbox(); }); 
-	</script>
-	<script>
-		new WOW().init();
-	</script>
-  </body>
 </html>
