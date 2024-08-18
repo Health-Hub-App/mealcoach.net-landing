@@ -37,6 +37,18 @@
           <li class="nav-item">
             <a class="nav-link" href="#features">Features</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#screenshots">Screenshots</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reviews">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#socials">Socials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#downloads">Downloads</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -131,7 +143,7 @@
         <h1>Screenshots</h1>
         <p>Lorem ipsum odor amet, consectetuer adipiscing elit.</p>
       </div>
-      <div class="owl-carousel owl-features owl-theme">
+      <div class="owl-carousel owl-screenshots owl-theme">
         <img class="border rounded" data-aos="fade-up" src="/images/screenshot-1.png" />
         <img class="border rounded" data-aos="fade-up" data-aos-delay="50" src="/images/screenshot-1.png" />
         <img class="border rounded" data-aos="fade-up" data-aos-delay="100" src="/images/screenshot-1.png" />
@@ -149,7 +161,7 @@
         <div class="row pb-5">
           <h1>Reviews</h1>
         </div>
-        <div class="owl-carousel owl-reviews">
+        <div class="owl-carousel owl-reviews owl-theme">
           <div class="col" data-aos="fade-up">
             <img class="profile-pic mx-auto rounded-circle pb-5" src="images/arnold.jpg" />
             <div>
@@ -202,7 +214,13 @@
           <h1>Downloads</h1>
           <p>Lorem ipsum odor amet, consectetuer adipiscing elit.</p>
         </div>
-
+        <div class="row mb-5">
+          <div class="row row-cols-2">
+            <div class="col card">Google Play</div>
+            <div class="col card">Apple</div>
+            <div class="col card">Web</div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -250,13 +268,10 @@
     $('.owl-title').owlCarousel({
       loop: true,
       margin: 0,
-      nav: true,
       responsive: { 0: { items: 1 } }
     });
-    $('.owl-features').owlCarousel({
-      loop: false,
-      margin: 10,
-      nav: true,
+    $('.owl-screenshots').owlCarousel({
+      margin: 25,
       responsive: {
         0: {
           items: 1
@@ -271,12 +286,10 @@
     });
     $('.owl-reviews').owlCarousel({
       loop: true,
-      margin: 10,
-      nav: true,
       responsive: {
         0: {
           items: 1
-        },
+        }
       }
     });
   </script>
