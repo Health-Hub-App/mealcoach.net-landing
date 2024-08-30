@@ -108,6 +108,9 @@
             <a class="nav-link" href="#socials">Socials</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#mailing">Mailing</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#downloads">Downloads</a>
           </li>
         </ul>
@@ -267,40 +270,72 @@
     </div>
   </div>
 
-  <!-- Downloads -->
-  <div id="downloads" class="parallax">
+  <!-- Mailing list -->
+  <div id="mailing" class="parallax">
     <div class="container py-5 text-light">
-      <div class="col ">
-        <div class="row pb-4 text-center">
-          <h1>Downloads</h1>
+      <div class="d-flex">
+        <div class="text-end pe-4 col-6" data-aos="fade-right" data-aos-delay="50">
+          <h1>Mailing List</h1>
           <p>Lorem ipsum odor amet, consectetuer adipiscing elit.</p>
         </div>
-        <div class="row">
-          <div class="col text-end">
-            <img height="100px" data-aos="fade-right" src="images/android.png" />
+
+        <form method="post" action="https://listmonk.mealcoach.net/subscription/form" class="w-25" data-aos="fade-left">
+          <input type="hidden" name="nonce" />
+
+          <div class="mb-3">
+            <label for="email" name="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" required placeholder="E-mail" id="email" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</div>
           </div>
-          <div class="col align-content-center" data-aos="fade-left">
-            <h3>Google Play</h3>
-            <p>For android devices, download the app on Google Play</p>
+
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" placeholder="Name (optional)" id="name">
           </div>
+
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="ac510" name="l" checked value="ac510cfd-7ab1-4e24-a796-72e1626ce906" />
+            <label class="form-check-label" for="ac510">Opt-in list</label>
+          </div>
+
+          <button type="submit" value="Subscribe" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Downloads -->
+  <div id="downloads" class="container py-5">
+    <div class="col">
+      <div class="row pb-4 text-center">
+        <h1>Downloads</h1>
+        <p>Lorem ipsum odor amet, consectetuer adipiscing elit.</p>
+      </div>
+      <div class="row">
+        <div class="col text-end">
+          <img height="100px" data-aos="fade-right" src="images/android.png" />
         </div>
-        <div class="row py-4">
-          <div class="col text-end align-content-center" data-aos="fade-right">
-            <h3>Apple</h3>
-            <p>Apple users can download the app on [idk what they call it]</p>
-          </div>
-          <div class="col text-start">
-            <img height="100px" data-aos="fade-left" src="images/apple.png" />
-          </div>
+        <div class="col align-content-center" data-aos="fade-left">
+          <h3>Google Play</h3>
+          <p>For android devices, download the app on Google Play</p>
         </div>
-        <div class="row">
-          <div class="col text-end">
-            <img height="100px" data-aos="fade-right" src="images/web.png" />
-          </div>
-          <div class="col align-content-center" data-aos="fade-left">
-            <h3>Web</h3>
-            <p>Coming soon!</p>
-          </div>
+      </div>
+      <div class="row py-4">
+        <div class="col text-end align-content-center" data-aos="fade-right">
+          <h3>Apple</h3>
+          <p>Apple users can download the app on [idk what they call it]</p>
+        </div>
+        <div class="col text-start">
+          <img height="100px" data-aos="fade-left" src="images/apple.png" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-end">
+          <img height="100px" data-aos="fade-right" src="images/web.png" />
+        </div>
+        <div class="col align-content-center" data-aos="fade-left">
+          <h3>Web</h3>
+          <p>Coming soon!</p>
         </div>
       </div>
     </div>
