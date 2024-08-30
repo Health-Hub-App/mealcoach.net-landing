@@ -41,3 +41,12 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.py-5 {
+  padding-top: 8rem !important;
+  padding-bottom: 8rem !important;
+}
+
+.pb-5 {
+  padding-bottom: 8rem !important;
+}
