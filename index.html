@@ -146,33 +146,34 @@
   <!-- Mailing list -->
   <div id="mailing">
     <div class="container py-5">
-      <div class="d-flex">
-        <div class="text-end pe-4 col-6" data-aos="fade-right" data-aos-delay="50">
+      <div class="col">
+        <div class="row pb-4 text-center">
           <h1>Mailing List</h1>
-          <p>Sign up before the apps release date for a special discount on the launch of the app! If you’re interested in testing the app for a free month, apply at contact@mealcoach.net</p>
+          <p>Sign up before release for a special discount! If you're interested in testing the app for a free month, send us an email at <b>contact@mealcoach.net</b>!</p>
         </div>
+        <div class="d-flex justify-content-center">
+          <form method="post" action="https://listmonk.mealcoach.net/subscription/form" class="w-25 listmonk-form" data-aos="fade-up">
+            <input type="hidden" name="nonce" />
 
-        <form method="post" action="https://listmonk.mealcoach.net/subscription/form" class="w-25 listmonk-form" data-aos="fade-left">
-          <input type="hidden" name="nonce" />
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" name="email" class="form-control" required placeholder="E-mail" id="email" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</div>
+            </div>
 
-          <div class="mb-3">
-            <label for="email" class="form-label">Email address</label>
-            <input type="email" name="email" class="form-control" required placeholder="E-mail" id="email" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</div>
-          </div>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" name="name" class="form-control" placeholder="Name (optional)" id="name">
+            </div>
 
-          <div class="mb-3">
-            <label for="name" class="form-label">Name</label>
-            <input type="text" name="name" class="form-control" placeholder="Name (optional)" id="name">
-          </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="ac510" name="l" checked value="ac510cfd-7ab1-4e24-a796-72e1626ce906" />
+              <label class="form-check-label" for="ac510">Opt-in list</label>
+            </div>
 
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="ac510" name="l" checked value="ac510cfd-7ab1-4e24-a796-72e1626ce906" />
-            <label class="form-check-label" for="ac510">Opt-in list</label>
-          </div>
-
-          <button type="submit" value="Subscribe" class="btn btn-primary">Subscribe</button>
-        </form>
+            <button type="submit" value="Subscribe" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
       </div>
     </div>
   </div>
