@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" style="max-width: 100%; overflow-x: hidden;">
 
 <head>
   <!-- SEO -->
@@ -82,7 +82,7 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body>
+<body style="max-width: 100%; overflow-x: hidden;">
   <!-- Navbar -->
   <nav class="p-2 bd-highlight navbar navbar-expand-lg sticky-top bg-body-tertiary">
     <div class="container">
@@ -152,7 +152,7 @@
           <p>Sign up before release for a special discount! If you're interested in testing the app for a free month, send us an email at <b>contact@mealcoach.net</b>!</p>
         </div>
         <div class="d-flex justify-content-center">
-          <form method="post" action="https://listmonk.mealcoach.net/subscription/form" class="w-25 listmonk-form" data-aos="fade-up">
+          <form method="post" action="https://listmonk.mealcoach.net/subscription/form" class="listmonk-form" data-aos="fade-up">
             <input type="hidden" name="nonce" />
 
             <div class="mb-3">
@@ -187,32 +187,36 @@
           <p>Here are our main features, with much more included. Advanced AI, personalisation, flexible and diverse tracking with seemless integration.</p>
         </div>
         <div class="row">
-          <div class="col d-flex" data-aos="fade-up" data-aos-delay="150">
-            <div class="p-4">
-              <i data-feather="cpu"></i>
-            </div>
-            <div>
-              <h3>Nutrient-Focused Approach</h3>
-              <p>We understand that not everyone wants to focus on calories. Our app allows you to enjoy delicious, balanced meals without worrying about the numbers. Simply describe your meal, and our AI will estimate the calories, macronutrients, and nutritional value, offering you peace of mind and freedom from calorie obsession.</p>
-            </div>
-          </div>
-
-          <div class="col d-flex" data-aos="fade-up" data-aos-delay="50">
+          <div class="col d-flex" style="min-width: 300px;" data-aos="fade-up" data-aos-delay="150">
             <div class="p-4">
               <i data-feather="info"></i>
             </div>
             <div>
-              <h3>Intuitive Meal Uploads</h3>
-              <p>Describe or photograph any meal, and our advanced AI will instantly analyse it, providing you with an estimated breakdown of calories and macronutrients. This feature is perfect for those spontaneous meals or when you're trying something new—no manual entry required..</p>
+              <h3>Image Analysis</h3>
+              <p>Photograph a meal to automatically fetch its calories and macronutrients. Perfect for spontaneous meals or when you're trying something new. </p>
+              <p>No manual entry required.</p>
             </div>
           </div>
-          <div class="col d-flex" data-aos="fade-up">
+
+          <div class="col d-flex" style="min-width: 300px;" data-aos="fade-up" data-aos-delay="50">
+            <div class="p-4">
+              <i data-feather="cpu"></i>
+            </div>
+            <div>
+              <h3>Nutrient-Focused</h3>
+              <p>We understand that not everyone wants to focus on calories.</p>
+              <p>Our app lets you to enjoy delicious, balanced meals without worrying about the numbers. Enjoy peace of mind and freedom from calorie obsession.</p>
+            </div>
+          </div>
+
+          <div class="col d-flex" style="min-width: 300px;" data-aos="fade-up">
             <div class="p-4">
               <i data-feather="wifi"></i>
             </div>
             <div>
-              <h3>Seamless Integration for Every Lifestyle</h3>
-              <p>Whether you're aiming to eat intuitively without focusing on calories or you're a fitness enthusiast looking for precise tracking, our app adapts to your lifestyle. With a user-friendly interface and customisable options, you'll find it easier than ever to maintain a balanced diet that supports your health and wellness goals..</p>
+              <h3>Matches Every Lifestyle</h3>
+              <p>From athletes, to couch potatos, our app adapts to your lifestyle.</p>
+              <p>With a user-friendly interface and customisable options, you'll find it easier than ever to maintain a balanced diet that supports your health and wellness goals.</p>
             </div>
           </div>
         </div>
@@ -247,11 +251,14 @@
           <h1>Socials</h1>
           <p>Join our vibrant online community by following our social media links to stay up-to-date with all the exciting developments at Meal Coach!</p>
         </div>
-        <div class="row">
-          <div class="d-flex justify-content-center">
-            <img class="me-5 rounded-circle" data-aos="fade-up" data-aos-delay="150" height="100px" src="images/x.png" />
-            <img class="me-5 rounded-circle" data-aos="fade-up" data-aos-delay="100" height="100px" src="images/x.png" />
-            <img class="me-5 rounded-circle" data-aos="fade-up" data-aos-delay="50" height="100px" src="images/x.png" />
+        <div class="row text-center">
+          <div class="col">
+            <img class="rounded-circle" data-aos="fade-up" data-aos-delay="150" height="100px" src="images/x.png" />
+          </div>
+          <div class="col">
+            <img class="rounded-circle" data-aos="fade-up" data-aos-delay="50" height="100px" src="images/x.png" />
+          </div>
+          <div class="col">
             <img class="rounded-circle" data-aos="fade-up" height="100px" src="images/tiktok.png" />
           </div>
         </div>
