@@ -19,9 +19,41 @@
     <label for="email">Email</label>
     <input type="text" id="email" name="email"><br><br>
     <label for="password">Password</label>
-    <input type="text" id="password" name="password"><br><br>
+    <input type="password" id="password" name="password"><br><br>
     <input type="submit" value="Submit">
   </form>
+
+  <p id="response"></p>
 </body>
+
+<script>
+  const form = document.querySelector('form');
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+
+    const data = {
+      email,
+      password,
+    };
+
+    fetch('/auth/deleteAccount', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+        document.getElementById('response').innerHTML = data;
+      })
+      .catch((error) => console.error('Error:', error));
+  });
+
+</script>
 
 </html>
